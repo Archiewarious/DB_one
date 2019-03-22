@@ -1,6 +1,7 @@
 <?php
-
-$host = "mysql";
-$user = "root";
-$password = "root";
-$DB = "usersDB";
+$DB_config = [
+    "host" => "mysql",
+    "user" => "root",
+    "pass" => "root",
+    "db" =>"usersDB",
+];

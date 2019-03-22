@@ -8,6 +8,10 @@ class DB
     {
         require("config.php");
 
+        $host       = $DB_config['host'];
+        $user       = $DB_config['user'];
+        $password   = $DB_config['pass'];
+        $DB         = $DB_config['db'];
 
         $this -> connect($host, $user, $password);
         $this -> createDB($db);
@@ -44,3 +48,6 @@ class DB
     }
     
 }
+
+
+
